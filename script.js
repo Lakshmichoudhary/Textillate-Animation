@@ -1,0 +1,1 @@
+$('#background-middle h1').textillate();

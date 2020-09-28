@@ -1,0 +1,102 @@
+@font-face{
+    font-family: MB;
+    font-family: ML;
+    src: url(monsterrat-light.ttf);
+    font-family: MM;
+    src: url(Montserrat-Medium.ttf);
+    src: url(monsterrat-bold.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#background{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(221, 221, 221); */
+    background-image: url(Mountain2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+#left-element h3{
+    font-size: 17px;
+    letter-spacing: 2px;
+    font-family: ML;
+    color: rgb(83, 83, 83);
+}
+#right-element img{
+    width: 21px;
+    height: 15px;
+}
+#below-background{
+    width: 100%;
+    height: 80%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#below-left-element{
+    width: 26%;
+    height: 70%;
+    /* background-color: yellow; */
+    background-image: url(traveller.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#below-right-element{
+    margin: 30px;
+    padding: 10px;
+    width: 35%;
+    height: 50%;
+    /* background-color: yellow; */
+}
+#below-right-element p{
+    color: rgb(216, 216, 216);
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-family: ML;
+    line-height: 20px;
+}
+#below-nav{
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(to top, rgb(22, 22, 22),rgba(255, 255, 255, 0.034));
+    position: absolute;
+    bottom: 0;
+}
+#below-right-element button{
+    width: 100px;
+    height: 34px;
+    background-color: transparent;
+    color: #F98B02;
+    margin-top: 20px;
+    border: 1px solid rgb(250, 226, 226);
+    letter-spacing: 2px;
+    font-family: MB;
+    border-radius: 5px;
+}
+#background-middle h1{
+    position: absolute;
+    top: 53.3%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 70px;
+    color: rgb(9, 1, 44);
+    letter-spacing: 12px;
+    font-family: MB;
+}
